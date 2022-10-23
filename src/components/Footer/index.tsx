@@ -60,9 +60,9 @@ const Footer = ({ t }: any) => {
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Language>{t("Endereço")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>R. Oiapoc, 211</Para>
+              <Para>Agostini, São Miguel do Oeste - SC</Para>
+              <Para>89900-000</Para>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
@@ -76,40 +76,6 @@ const Footer = ({ t }: any) => {
           </Row>
         </Container>
       </FooterSection>
-      <Extra>
-        <Container border={true}>
-          <Row
-            justify="space-between"
-            align="middle"
-            style={{ paddingTop: "3rem" }}
-          >
-            <NavLink to="/">
-              <LogoContainer>
-                <SvgIcon
-                  src="logo.svg"
-                  aria-label="homepage"
-                  width="101px"
-                  height="64px"
-                />
-              </LogoContainer>
-            </NavLink>
-            <FooterContainer>
-              <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
-              />
-              <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
-              />
-              <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
-              />
-            </FooterContainer>
-          </Row>
-        </Container>
-      </Extra>
     </>
   );
 };
