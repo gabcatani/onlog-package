@@ -39,7 +39,7 @@ const Home = () => {
         section={AboutContent.section}
         icon="2.svg"
         icon2=""
-        id="about"
+        id="step1"
       />
       <ContentBlock
         type="right"
@@ -47,7 +47,7 @@ const Home = () => {
         content={MissionContent.text}
         icon="3.svg"
         icon2=""
-        id="mission"
+        id="step2"
       />
       <ContentBlock
         type="right"
@@ -55,7 +55,7 @@ const Home = () => {
         content={ProductContent.text}
         icon="4.svg"
         icon2=""
-        id="product"
+        id="step3"
       />
       <ContentBlock
         type="left"
@@ -63,7 +63,7 @@ const Home = () => {
         content={DeliveryMen.text}
         icon="entregador1.png"
         icon2="entregador2.png"
-        id="product"
+        id="entregador"
       />
       <ContentBlock
         type="left"
@@ -71,7 +71,7 @@ const Home = () => {
         content={ReceiverMen.text}
         icon="cliente1.png"
         icon2="cliente2.png"
-        id="product"
+        id="cliente"
       />
       <Contact
         title={ContactContent.title}
