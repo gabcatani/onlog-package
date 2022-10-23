@@ -56,19 +56,15 @@ const Home = () => {
       <ContentBlock
         type="left"
         title={DeliveryMen.title}
-        content={ProductContent.text}
-        //section={AboutContent.section}
+        content={DeliveryMen.text}
         icon="entregador1.png"
-        icon2="entregador1.svg"
         id="product"
       />
       <ContentBlock
         type="left"
         title={ReceiverMen.title}
-        content={ProductContent.text}
-        //section={AboutContent.section}
+        content={ReceiverMen.text}
         icon="cliente1.png"
-        icon2="cliente1.png"
         id="product"
       />
       <Contact
