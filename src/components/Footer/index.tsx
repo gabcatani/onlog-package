@@ -52,10 +52,10 @@ const Footer = ({ t }: any) => {
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contato")}</Language>
-              <a href="https://api.whatsapp.com/send?phone=55498406">Envie seu feedback</a>
+              <a href="https://api.whatsapp.com/send?phone=554984060050">Envie seu feedback</a>
               <Para>
-              <a href="https://api.whatsapp.com/send?phone=55498406">Dúvidas?</a> <br/>
-              <a href="https://api.whatsapp.com/send?phone=55498406">Entre em contato</a>
+              <a href="https://api.whatsapp.com/send?phone=554984060050">Dúvidas?</a> <br/>
+              <a href="https://api.whatsapp.com/send?phone=554984060050">Entre em contato</a>
               </Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
