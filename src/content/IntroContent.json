@@ -1,0 +1,13 @@
+{
+  "title": "Plataforma para encomendas",
+  "text": "Somos uma plataforma moldada em um ambiente prático para intermediar a logística de fretes. Oferecendo agilidade na contratação, segurança e menores custo.",
+  "button": [
+    {
+      "title": "Explore"
+    },
+    {
+      "title": "Saiba mais",
+      "color": "#fff"
+    }
+  ]
+}

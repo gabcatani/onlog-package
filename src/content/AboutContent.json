@@ -1,0 +1,16 @@
+{
+  "title": "Rápido, seguro & fácil",
+  "text": "A melhor plataforma para lhe auxiliar a encontrar um entregador ou buscar uma encomenda",
+  "section": [
+    {
+      "title": "Entregadores",
+      "content": "Encontre solicitações de fretes da forma mais rápida e pratrica.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Clientes",
+      "content": "Publique sua encomenda com segurança e agilidade.",
+      "icon": "notes.svg"
+    }
+  ]
+}
