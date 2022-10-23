@@ -5,6 +5,8 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import DeliveryMen from "../../content/DeliveryMen.json";
+import ReceiverMen from "../../content/ReceiverMen.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -30,7 +32,7 @@ const Home = () => {
         button={MiddleBlockContent.button}
       />
       <ContentBlock
-        type="left"
+        type="right"
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
@@ -45,9 +47,25 @@ const Home = () => {
         id="mission"
       />
       <ContentBlock
-        type="left"
+        type="right"
         title={ProductContent.title}
         content={ProductContent.text}
+        icon="waving.svg"
+        id="product"
+      />
+      <ContentBlock
+        type="left"
+        title={DeliveryMen.title}
+        content={ProductContent.text}
+        section={AboutContent.section}
+        icon="waving.svg"
+        id="product"
+      />
+      <ContentBlock
+        type="left"
+        title={ReceiverMen.title}
+        content={ProductContent.text}
+        section={AboutContent.section}
         icon="waving.svg"
         id="product"
       />

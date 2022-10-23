@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
-
+// ff8210
+// 800080
+// d859d8
 export const Styles = createGlobalStyle`
 
     @font-face {
@@ -32,7 +34,7 @@ export const Styles = createGlobalStyle`
     }
 
     a:hover {
-        color: #18216d;
+        color: #ff8210;
     }
 
     input,
@@ -47,7 +49,7 @@ export const Styles = createGlobalStyle`
 
         :focus-within {
             background: none;
-            box-shadow: #2e186a 0px 0px 0px 1px;
+            box-shadow: #d859d8 0px 0px 0px 1px;
         }
     }
 
@@ -58,7 +60,7 @@ export const Styles = createGlobalStyle`
     h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        color: #d859d8;
         font-size: 56px;
         line-height: 1.18;
 

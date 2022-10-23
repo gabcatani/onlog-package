@@ -38,8 +38,8 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
               <Col span={24}>
                 <Input
                   type="text"
-                  name="Nome"
-                  placeholder="Digite seu nome"
+                  name="name"
+                  placeholder="Your Name"
                   value={values.name || ""}
                   onChange={handleChange}
                 />
@@ -48,45 +48,24 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
               <Col span={24}>
                 <Input
                   type="text"
-                  name="Contato"
-                  placeholder="Qual seu telefone?"
+                  name="email"
+                  placeholder="Your Email"
                   value={values.email || ""}
                   onChange={handleChange}
                 />
                 <ValidationType type="email" />
               </Col>
               <Col span={24}>
-              <Input
-                  type="text"
-                  name="Endereço"
-                  placeholder="Qual sua localização?"
-                  value={values.email || ""}
+                <TextArea
+                  placeholder="Your Message"
+                  value={values.message || ""}
+                  name="message"
                   onChange={handleChange}
                 />
-                <ValidationType type="address" />
-              </Col>
-              <Col span={24}>
-              <Input
-                  type="text"
-                  name="Local de entrega"
-                  placeholder="Para onde vai?"
-                  value={values.email || ""}
-                  onChange={handleChange}
-                />
-                <ValidationType type="address" />
-              </Col>
-              <Col span={24}>
-              <Input
-                  type="text"
-                  name="Rementente"
-                  placeholder="Quem vai receber?"
-                  value={values.email || ""}
-                  onChange={handleChange}
-                />
-                <ValidationType type="address" />
+                <ValidationType type="message" />
               </Col>
               <ButtonContainer>
-                <Button name="submit">{t("Enviar")}</Button>
+                <Button name="submit">{t("Submit")}</Button>
               </ButtonContainer>
             </FormGroup>
           </Slide>

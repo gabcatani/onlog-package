@@ -25,7 +25,8 @@ const LeftContentBlock = ({
       <Fade direction="left">
         <Row justify="space-between" align="middle" id={id}>
           <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="60%" height="60%" />
+            <SvgIcon src={icon} width="50%" height="50%" />
+            <SvgIcon src={icon} width="50%" height="50%" />
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>

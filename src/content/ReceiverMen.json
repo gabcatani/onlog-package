@@ -1,0 +1,17 @@
+{
+    "title": "Cliente",
+    "text": "Informe os dados básicos da carga para solicitar um frete aos entregadores. Após a solicitação do frete, ficará disponível para os entregadores enviarem uma proposta com um valor justo.",
+    "section": [
+      {
+        "title": "Entregadores",
+        "content": "Encontre solicitações de fretes da forma mais rápida e pratrica.",
+        "icon": "notes.svg"
+      },
+      {
+        "title": "Clientes",
+        "content": "Publique sua encomenda com segurança e agilidade.",
+        "icon": "notes.svg"
+      }
+    ]
+  }
+  

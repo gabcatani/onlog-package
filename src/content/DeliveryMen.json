@@ -1,0 +1,17 @@
+{
+    "title": "Entregadores",
+    "text": "Como entregador você terá acesso a listagem de fretes disponíveis onde poderá contar com uma ferramenta de filtragem inteligente para seleção dos melhores fretes. Você terá a liberdade para enviar sua proposta com o valor do frete para o cliente, onde ele escolherá entre aceitar, rejeitar ou enviar uma contraproposta.",
+    "section": [
+      {
+        "title": "Entregadores",
+        "content": "Encontre solicitações de fretes da forma mais rápida e pratrica.",
+        "icon": "notes.svg"
+      },
+      {
+        "title": "Clientes",
+        "content": "Publique sua encomenda com segurança e agilidade.",
+        "icon": "notes.svg"
+      }
+    ]
+  }
+  
